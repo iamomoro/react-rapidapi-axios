@@ -1,15 +1,15 @@
 *{
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 85%;
   }
   
   td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #be1e2d ;
     text-align: left;
     padding: 8px;
   }
   
   tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #082b47;
+    color: white;
   }
