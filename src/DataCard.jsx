@@ -5,7 +5,10 @@ class CharacterCard extends Component {
     return (
       <>
         <tr>
-          
+          <td>{this.props.obj.name}</td>
+          <td>{this.props.obj.postal}</td>
+          <td>{this.props.obj.capital.name}</td>
+          <td>{this.props.obj.population.total}</td>
         </tr>
       </>
     );
