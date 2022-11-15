@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import DataCard from './DataCard';
+import './App.css'
 
 export default class App extends Component {
   constructor(props) {
@@ -47,7 +48,7 @@ export default class App extends Component {
               <th>Capital</th>
               <th>Population</th>
             </tr>
-            <tr>{this.dataTable()}</tr>
+            {this.dataCard()}
           </table>
         </div>
       </>
