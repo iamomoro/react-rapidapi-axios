@@ -15,7 +15,7 @@ export default class App extends Component {
       params: { limit: '10', page: '1' },
       headers: {
         'X-RapidAPI-Key': 'fa0828195cmsh9f824b0cab82622p1c348ajsnc8b29806bee2',
-        'X-RapidAPI-Host': 'us-states.p.rapidapi.com'
+        'X-RapidAPI-Host': 'us-states.p.rapidapi.com',
       },
     };
 
@@ -40,7 +40,15 @@ export default class App extends Component {
     return (
       <>
         <div style={{ marginTop: '50px', padding: '20px' }}>
-          {this.dataTable()}
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Postal</th>
+              <th>Capital</th>
+              <th>Population</th>
+            </tr>
+            <tr>{this.dataTable()}</tr>
+          </table>
         </div>
       </>
     );
