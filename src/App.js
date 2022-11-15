@@ -41,6 +41,7 @@ export default class App extends Component {
     return (
       <>
         <div style={{ marginTop: '50px', padding: '20px' }}>
+          <p><b>US States - Rapid API</b></p>
           <table>
             <tr>
               <th>Name</th>
